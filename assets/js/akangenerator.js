@@ -15,8 +15,13 @@ function akanGenerator(){
     let female = true;
   }
 
+  //Variables
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let males = ["Kwasi", "Kwadwo", "Kwabena","Kwaku", "Yaw", "Kofi", "Kwame"];
   let females = ["Akosua","Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+  //Calculate specific day of the week
+  let birthday = new Date(mm + '/' + dd + '/' + yy);
+  let dayOfTheWeek = birthday.getDay;
 
 }
