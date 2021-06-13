@@ -40,5 +40,9 @@ function akanGenerator(){
   else if ((mm === "0" || mm === "2" || mm === "4" || mm === "6" || mm === "7" || mm === "9" || mm === "11") && (dd <= 0 || dd > 31)){
     document.getElementById("output").innerText = "The Selected Month Has 31 Days Only!"
   }
+  //Validitation of months with 30 days only
+  else if((mm === "1" || mm === "3" || mm === "5" || mm === "8" || mm === "10") && (dd <= 0 || dd > 30)){
+    document.getElementById("output").innerText = "The Selected Month Has 30 Days Only!"
+  }
 
 }
