@@ -55,3 +55,12 @@ body{
 	background-color: #c69c6d;
 	border-color: #c69c6d;
 }
+
+.form-check-input:checked {
+  background-color: #800600;
+  border-color: #800600;
+}
+
+.form-check-input[type=radio] {
+  border-radius: 25%;
+}
