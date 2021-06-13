@@ -67,3 +67,8 @@ function akanGenerator(){
     document.getElementById("output").innerText = "Please select Gender "
   }
 }
+
+//Reset form
+function reset(){
+  document.getElementById("form").reset();
+}
