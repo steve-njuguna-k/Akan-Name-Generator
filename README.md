@@ -6,6 +6,15 @@ Akan Name Generator is a web application that takes your birthday and calculates
 
 Done by Steve Njuguna
 
+Some Unique Features
+--------------------
+- Restricts if a field is empty or a radio button isn't checked
+- Confines dates between 1 - 31 days
+- Confines months between 1 - 12 months
+- Confines years between 1 - 2021
+- Checks if a year is a leap year or not whenever February is chosen
+- Checks for months with 30 & 31 days only
+
 Project Setup Instructions
 ---------------------------
 1) Git clone the repository https://github.com/steve-njuguna-k/Akan-Name-Generator.git
