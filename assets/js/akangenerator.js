@@ -44,5 +44,12 @@ function akanGenerator(){
   else if((mm === "1" || mm === "3" || mm === "5" || mm === "8" || mm === "10") && (dd <= 0 || dd > 30)){
     document.getElementById("output").innerText = "The Selected Month Has 30 Days Only!"
   }
-
+  //Validate leap years for February
+  else if((mm === "1") && (dd <= 0 || dd > 29) && (yy % 4 == 0)){
+    document.getElementById("output").innerText = "This is a Leap Year. February Has 29 Days Only!"
+  }
+  //Validitation non-leap years for February
+  else if((mm === "1") && (dd <= 0 || dd > 28) && (yy % 4 != 0)){
+    document.getElementById("output").innerText = "This is not a Leap Year!. February Has 28 Days Only!"
+  }
 }
