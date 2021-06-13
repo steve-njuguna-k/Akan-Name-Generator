@@ -2,3 +2,10 @@ body{
   background-image: url("https://res.cloudinary.com/steve-njuguna/image/upload/v1623447085/bg_vizjmb.jpg");
   color: #fff;
 }
+
+.container-fluid{
+	background-color: none;
+	margin-top: 50px;
+	width: 75%;
+	border-radius: 8px;
+}
