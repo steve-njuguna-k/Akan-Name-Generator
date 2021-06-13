@@ -17,3 +17,13 @@ body{
 	opacity: 0.8;
 	text-align: left;
 }
+
+.btn-dark{
+	background-color: #800600;
+	border-color: #800600;
+}
+
+.btn-dark:hover{
+	background-color: #754c24;
+	border-color: #754c24;
+}
