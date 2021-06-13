@@ -28,5 +28,9 @@ function akanGenerator(){
   if(dd === '' || mm === '' || yy === ''){
     document.getElementById("output").innerText = "Please Fill In ALL The Fields!"
   }
+  //Validitation of days between 1 - 31
+  else if(dd <= 0 || dd > 31){
+    document.getElementById("output").innerText = "Sorry your date is invalid! Please enter a valid date!"
+  }
 
 }
