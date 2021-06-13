@@ -54,7 +54,7 @@ let form = document.getElementById("formSubmit").addEventListener("click",functi
 		}
 		//Validitation of years between 1 - 2021
 		else if(yy <= 0 || yy > 2021){
-			document.getElementById("output").innerText = "Year out of range! Must not be more than 2021"
+			document.getElementById("output").innerText = "Year out of range! Years must between 1 - 2021"
 		}
 		//Validitation of male gender checked
 		else if (male === true){
