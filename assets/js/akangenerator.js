@@ -52,4 +52,8 @@ function akanGenerator(){
   else if((mm === "1") && (dd <= 0 || dd > 28) && (yy % 4 != 0)){
     document.getElementById("output").innerText = "This is not a Leap Year!. February Has 28 Days Only!"
   }
+  //Validitation of years between 1 - 2021
+  else if(yy <= 0 || yy > 2021){
+    document.getElementById("output").innerText = "Year out of range! Must not be more than 2021"
+  }
 }
