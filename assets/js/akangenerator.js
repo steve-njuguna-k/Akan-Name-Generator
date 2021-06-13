@@ -36,5 +36,9 @@ function akanGenerator(){
   else if(mm <= 0 || mm > 12){
     document.getElementById("output").innerText = "Sorry your date is invalid! Please enter a valid month!"
   }
+  //Validitation of months with 31 days only
+  else if ((mm === "0" || mm === "2" || mm === "4" || mm === "6" || mm === "7" || mm === "9" || mm === "11") && (dd <= 0 || dd > 31)){
+    document.getElementById("output").innerText = "The Selected Month Has 31 Days Only!"
+  }
 
 }
