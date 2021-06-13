@@ -56,4 +56,14 @@ function akanGenerator(){
   else if(yy <= 0 || yy > 2021){
     document.getElementById("output").innerText = "Year out of range! Must not be more than 2021"
   }
+  //Validitation of male gender checked
+  else if(gender === true){
+    document.getElementById("output").innerText = "You were born on a " + days[dayOfTheWeek] + ". " + "Your Akan name is " + males[dayOfTheWeek] + "!"
+  }
+  else if(female === true){
+    document.getElementById("output").innerText = "You were born on a " + days[dayOfTheWeek] + ". " + "Your Akan name is " + females[dayOfTheWeek] + "!"
+  }
+  else{
+    document.getElementById("output").innerText = "Please select Gender "
+  }
 }
