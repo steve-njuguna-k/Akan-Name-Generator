@@ -45,3 +45,13 @@ body{
 	width: 50%;
 	border-radius: 8px;
 }
+
+.btn-secondary{
+	background-color: #c69c6d;
+	border-color: #c69c6d;
+}
+
+.btn-secondary:hover{
+	background-color: #c69c6d;
+	border-color: #c69c6d;
+}
