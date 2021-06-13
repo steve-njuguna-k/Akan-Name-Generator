@@ -24,4 +24,9 @@ function akanGenerator(){
   let birthday = new Date(mm + '/' + dd + '/' + yy);
   let dayOfTheWeek = birthday.getDay;
 
+  //Validitation of empty fields
+  if(dd === '' || mm === '' || yy === ''){
+    document.getElementById("output").innerText = "Please Fill In ALL The Fields!"
+  }
+
 }
