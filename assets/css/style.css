@@ -27,3 +27,14 @@ body{
 	background-color: #754c24;
 	border-color: #754c24;
 }
+
+.response{
+	width: 100%;
+	background-color: #754c24;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
