@@ -1,6 +1,7 @@
 body{
   background-image: url("https://res.cloudinary.com/steve-njuguna/image/upload/v1623447085/bg_vizjmb.jpg");
   color: #fff;
+  font-family: 'Grandstander', cursive;
 }
 
 .container-fluid{
