@@ -32,5 +32,9 @@ function akanGenerator(){
   else if(dd <= 0 || dd > 31){
     document.getElementById("output").innerText = "Sorry your date is invalid! Please enter a valid date!"
   }
+  //Validitation of months between 1 - 12
+  else if(mm <= 0 || mm > 12){
+    document.getElementById("output").innerText = "Sorry your date is invalid! Please enter a valid month!"
+  }
 
 }
